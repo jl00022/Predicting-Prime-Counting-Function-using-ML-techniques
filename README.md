@@ -58,7 +58,7 @@ Within the range of values in the training dataset, **Multiple Linear Regression
 
 However, when evaluating **Absolute Percentage Error (APE) on values beyond the training range**, MLR again outperformed the others. The remaining models (Random Forest and Neural Network) showed significantly lower accuracy, likely because they are not well-suited for **extrapolation**.
 
-Overall, **MLR is the best-performing model** in this study, as it generalises well and is capable of **extrapolating to values 10x and even 100x larger than the maximum value in the training data**—a key advantage for this task.
+Overall, **MLR is the best-performing model** in this study, as it generalises well and is capable of **extrapolating to values 10x and even 100x larger than the maximum value in the training data**.
 
 ## Dependencies
 
