@@ -67,7 +67,7 @@ Overall, **MLR is the best-performing model** in this study, as it generalises w
 - matplotlib
 - seaborn
 - scikit-learn
-- tensorflow (for neural network models)
+- tensorflow (for neural network model)
 - scipy
 
 ## References
