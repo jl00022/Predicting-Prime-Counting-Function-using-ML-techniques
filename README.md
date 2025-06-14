@@ -31,3 +31,47 @@ The project consists of the following components:
    - `Regression_Techniques.ipynb`
    - `RandomForest_approach.ipynb`
    - `NeuralNetwork_approach.ipynb`
+
+## Project Results
+
+### Model Performance on Test Set
+
+| Model | MAPE on Test Set |
+|-------|------------------|
+| Simple Linear Regression | 9.50% |
+| Multiple Linear Regression | 0.12% |
+| Random Forest Regression | 0.01% |
+| Neural Network Model | 2.69% |
+
+### Results on Large Values Beyond Dataset
+
+| Model | APE on 10^6 | APE on 10^7 | APE on 10^8 |
+|-------|-------------|-------------|-------------|
+| Simple Linear Regression | 19.83% | 41.05% | 62.64% |
+| Multiple Linear Regression | 0.98% | 11.11% | 126.55% |
+| Random Forest Regression | 87.78% | 98.56% | 99.83% |
+| Neural Network Model | 56.89% | 1198.08% | 14386.10% |
+
+## Conclusion
+
+Within the range of values in the training dataset, **Multiple Linear Regression (MLR)** proved to be the most accurate model. All models—except for linear regression—achieved high accuracy with a **Mean Absolute Percentage Error (MAPE) under 2%**.
+
+However, when evaluating **Absolute Percentage Error (APE) on values beyond the training range**, MLR again outperformed the others. The remaining models (Random Forest and Neural Network) showed significantly lower accuracy, likely because they are not well-suited for **extrapolation**.
+
+Overall, **MLR is the best-performing model** in this study, as it generalises well and is capable of **extrapolating to values 10x and even 100x larger than the maximum value in the training data**—a key advantage for this task.
+
+## Dependencies
+
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- tensorflow (for neural network models)
+- scipy
+
+## References
+
+1. Prime Number Theorem: https://en.wikipedia.org/wiki/Prime_number_theorem
+2. Logarithmic Integral: https://en.wikipedia.org/wiki/Logarithmic_integral_function
+3. Legendre's Formula: https://en.wikipedia.org/wiki/Legendre%27s_constant
