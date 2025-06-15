@@ -54,9 +54,9 @@ The project consists of the following components:
 
 ## Conclusion
 
-Within the range of values in the training dataset, **Multiple Linear Regression (MLR)** proved to be the most accurate model. All models, except for linear regression, achieved high accuracy with a **Mean Absolute Percentage Error (MAPE) under 3%**.
+Within the range of values in the training dataset, **Random Forest Regression** proved to be the most accurate model. All models, except for Simple Linear Regression (SLR), achieved high accuracy with a **Mean Absolute Percentage Error (MAPE) of under 3%**.
 
-However, when evaluating **Absolute Percentage Error (APE) on values beyond the training range**, MLR again outperformed the others. The remaining models (Random Forest and Neural Network) showed significantly lower accuracy, likely because they are not well-suited for **extrapolation**.
+However, when evaluating **Absolute Percentage Error (APE) on values beyond the training range**, MLR outperformed the others. The remaining models (Random Forest and Neural Network) showed significantly lower accuracy, likely because they are not well-suited for **extrapolation**.
 
 Overall, **MLR is the best-performing model** in this study, as it generalises well and is capable of **extrapolating to values 10x and even 100x larger than the maximum value in the training data**.
 
