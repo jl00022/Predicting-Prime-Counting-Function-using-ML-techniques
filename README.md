@@ -13,7 +13,7 @@ There are also mathematical approximations to estimate number of primes below a 
 
 ## Project Objective
 
-In this project, I do not intend to replace the traditional techniques such as Sieve of Eratosthenes and mathematical approximations of prime counting function with a ML model. I merely intend to explore whether ML has the potential in approximating prime counting function. The reason I am doing this is that Machine learning and number theory are usually seen as unrelated fields, and I am just curious to see what insights might emerge when they intersect. If the model actually works, it could possibly offer faster performance than the sieve and have higher accuracy than the mathematical approximations. Also, I'm personally interested in both ML and number theory.
+In this project, I do not intend to replace the traditional techniques such as Sieve of Eratosthenes and mathematical approximations of prime counting function with a ML model. I merely intend to explore whether ML has the potential in approximating prime counting function. The reason I am doing this is that Machine learning and number theory are usually seen as unrelated fields, and I am just curious to see what insights might emerge when they intersect. If the model do work, it could possibly offer faster performance than the sieve and have higher accuracy than the mathematical approximations. Also, I'm personally interested in both ML and number theory.
 
 ## Project Structure
 
